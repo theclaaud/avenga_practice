@@ -1,0 +1,19 @@
+.pizza-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.pizza-size {
+    text-align: center;
+}
+
+.pizza-svg {
+    display: block;
+    margin: 0 auto;
+}
+
+.pizza-label {
+    margin-top: 10px;
+    font-size: 14px;
+}

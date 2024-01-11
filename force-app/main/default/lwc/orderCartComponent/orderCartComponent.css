@@ -1,0 +1,30 @@
+.container {
+    font-size: 17px;
+}
+
+.header {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.actions {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.quantity {
+    border: 1px solid #ccc; 
+    padding: 5px; 
+    border-radius: 4px; 
+}
+.item {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    box-sizing: border-box;
+  }
+  
+  .item div {
+    width: 7em;
+    height: 1,4em;
+  }

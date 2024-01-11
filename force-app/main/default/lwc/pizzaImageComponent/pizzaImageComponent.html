@@ -1,0 +1,7 @@
+<template>
+    <lightning-card title="Pizza Images">
+        <template for:each={pizzaImages} for:item="pizzaImage">
+            <img key={pizzaImage} src={pizzaImage} alt="Pizza Image" style="width: 200px; height: 200px;"/>
+        </template>
+    </lightning-card>
+</template>

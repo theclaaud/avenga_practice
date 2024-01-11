@@ -1,0 +1,21 @@
+<template>
+    <div class="container">
+        <div class="header"><b>Корзина замовлення</b><br></div>
+
+        <div class="item">
+            <div class="item-info">
+                <span class="itemName">Барбекю 42 см //приклад</span>
+            </div>
+            <div class = "quantityspan">
+                <span class="quantity"> 1 </span>
+            <span class="delete" onclick={deleteItem}>
+                <lightning-icon icon-name="utility:delete" size="small"><br></lightning-icon>
+            </span>
+            </div>
+        </div>
+
+        <div class="actions">
+            <b><lightning-button variant="brand-outline" label="+ Розмістити замовлення" onclick={handleClick} class="slds-m-left_x-small"></lightning-button></b>
+        </div>
+    </div>
+</template>
